@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    font-family: Arial narrow;
 }
 .home_container {
     position: relative;
@@ -17,8 +18,13 @@ body {
     border-radius: 100%;
     border: 2px solid #e5e5e5;
 }
+.sidebar h2{
+    font-size: 30px;
+}
 .sidebar h4 {
     color: #8d8b8b;
+    font-size: 18px;
+    padding-bottom: 30px;
 }
 .container {
     height: 100vh;
