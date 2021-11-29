@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    font-family: Arial narrow;
 }
 .home_container {
     position: relative;
@@ -17,17 +18,21 @@ body {
     border-radius: 100%;
     border: 2px solid #e5e5e5;
 }
+.sidebar h2{
+    font-size: 30px;
+}
 .sidebar h4 {
     color: #8d8b8b;
+    font-size: 18px;
+    padding-bottom: 30px;
 }
 .container {
-    background-image: url('../images/home_page_bg_2.jpeg');
+    background-image: url('../images/home_page_bg_5.jpg');
     height: 100vh;
     margin-left: 22%;
     margin-top: 0px;
     color: #fff;
     position: relative; 
-    font-family: Oswald, Helvetica, sans-serif;
 }
 .container_mask {
     height: 100vh;
@@ -37,20 +42,21 @@ body {
 .container .container-text {
     width: 100%;
     position: absolute;
-    font-family: Oswald, Helvetica, sans-serif;
     right: 0;
 }
 .container .user_name {
-    font-size: 80px;
+    font-size: 100px;
     margin: 0px;
-    padding-top: 150px;
+    padding-top: 120px;
 }
 .container .user_role {
     color: rgb(168, 167, 167);
+    font-size: 25px;
 }
 #component {
     padding-top: 20px;
     height: 250px; 
+    font-size: 20px;
 }
 #component .age {
     text-decoration: underline 3px yellow;
@@ -71,6 +77,7 @@ body {
     list-style-type: none;
     text-align: center;
     padding: 0px; 
+    font-size: 18px;
 }
 #nav li {
     position: relative;
