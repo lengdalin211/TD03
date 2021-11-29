@@ -1,0 +1,98 @@
+body {
+    margin: 0px;
+}
+.home_container {
+    position: relative;
+    height: 100%;
+}
+.sidebar {
+    width: 22%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    padding-top: 50px;
+}
+.sidebar img {
+    width: 100px;
+    border-radius: 100%;
+    border: 2px solid #e5e5e5;
+}
+.sidebar h4 {
+    color: #8d8b8b;
+}
+.container {
+    background-image: url('../images/home_page_bg_2.jpeg');
+    height: 100vh;
+    margin-left: 22%;
+    margin-top: 0px;
+    color: #fff;
+    position: relative; 
+    font-family: Oswald, Helvetica, sans-serif;
+}
+.container_mask {
+    height: 100vh;
+    /* opacity: 0.5; */
+    background-color: rgb(0, 0, 0, 0.619);
+}
+.container .container-text {
+    width: 100%;
+    position: absolute;
+    font-family: Oswald, Helvetica, sans-serif;
+    right: 0;
+}
+.container .user_name {
+    font-size: 80px;
+    margin: 0px;
+    padding-top: 150px;
+}
+.container .user_role {
+    color: rgb(168, 167, 167);
+}
+#component {
+    padding-top: 20px;
+    height: 250px; 
+}
+#component .age {
+    text-decoration: underline 3px yellow;
+}
+#component .address {
+    text-decoration: underline 3px yellow;
+}
+#component .email {
+    text-decoration: underline 3px yellow;
+}
+#component .phone {
+    text-decoration: underline 3px yellow;
+}
+#component .freelance {
+    text-decoration: underline 3px yellow;
+}
+#nav {
+    list-style-type: none;
+    text-align: center;
+    padding: 0px; 
+}
+#nav li {
+    position: relative;
+    padding: 10px;
+    border-bottom: 1px solid rgb(237, 236, 236);
+    border-top: 1px solid rgb(237, 236, 236);
+    margin-top: -1px;
+}
+#nav li.active {
+    background-color: #f5f3f3;
+}
+li.active a:after {
+    background-color: #f4c052;
+    display: block;
+    position: absolute;
+    content: ' ';
+    right: 0;
+    bottom: 0;
+    width: 3px;
+    height: 100%;
+}
+#nav a {
+    color: black;
+    text-decoration: none;
+}
